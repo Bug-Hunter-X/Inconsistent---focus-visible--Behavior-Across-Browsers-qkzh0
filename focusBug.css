@@ -1,0 +1,1 @@
+The CSS rule `:focus-visible` is not working as expected.  I'm trying to style elements when they receive focus, but only when that focus is visible to the user (i.e., not programmatically set). However, the styling isn't applying consistently across different browsers and assistive technologies.
