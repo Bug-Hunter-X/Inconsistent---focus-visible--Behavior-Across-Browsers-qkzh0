@@ -1,0 +1,19 @@
+/* focusSolution.css */
+
+/* Potential Solution 1: Using JavaScript to detect focus visibility */
+.focusable {
+  outline: none; /* Remove default outline */
+}
+
+.focusable:focus {
+  box-shadow: 0 0 0 2px #007bff; /* Custom focus style */
+}
+
+// JavaScript to check if focus is programmatically set and apply or remove style accordingly. This is not foolproof, but can improve consistency across browsers.
+
+/* Potential Solution 2:  Fallback styles (less precise but more widely supported)*/
+.focusable:focus {
+  box-shadow: 0 0 0 2px #007bff; /* Style for all focus events */
+}
+
+/*Consider adding more specific styles to override the default styles for different browsers or assistive technologies*/
